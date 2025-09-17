@@ -1,8 +1,8 @@
 public class Shape {
     public Double length;
     public Double width;
-    public  Double PI;
-    public Shape(){
+
+    public Shape() {
         length = 100.1045;
         width = 200.290;
     }
@@ -10,11 +10,9 @@ public class Shape {
         this.length = ShapesLength;
         this.width = ShapesWidth;
     }
-    public Double calculateArea(){
-
-        System.out.println(length * width);
-        return length*width;
-
+    public Double calculateArea() {
+        return 0.0;
     }
+
 
 }

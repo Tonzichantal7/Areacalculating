@@ -1,10 +1,12 @@
 public class Circle extends Shape {
-    public Circle(Double length, Double width) {
-        super(length, width);
+    Double radius = 100.100;
+    Double  PI =3.14 ;
+    public Circle(Double radius , Double PI){
+        super();
     }
-
-    public Double calculateArea() {
-         System.out.println(length * width );
-        return length*width ;
+@Override
+public Double calculateArea() {
+         System.out.println("area of circle is "+PI * radius * radius);
+        return PI*radius*radius ;
     }
 }
